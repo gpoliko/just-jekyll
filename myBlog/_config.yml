@@ -50,9 +50,19 @@ defaults:
 # Default Author configuration
 author:
   name: "Giovanni Poliko"
-  avatar:
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
+  avatar: "/assets/images/gio.jpg"
+  bio: "\"Just Jekyll.\""
+  location: "Auckland"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gpoliko"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gpoliko/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/gpoliko"
 
 
 # Exclude from processing.
