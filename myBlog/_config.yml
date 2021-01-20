@@ -36,14 +36,24 @@ minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "d
 plugins:
   - jekyll-feed
 
+# Default permalink linking
 defaults:
-  -
-    scope:
+  # _posts
+  - scope:
       path: ""
       type: "posts"
     values:
       #values
       layout: "posts"
+      author_profile: true
+
+# Default Author configuration
+author:
+  name: "Giovanni Poliko"
+  avatar:
+  bio: "I am an **amazing** person."
+  location: "Somewhere"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
