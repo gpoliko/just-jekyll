@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: posts
 title: "This is a first blog post"
 ---
 
